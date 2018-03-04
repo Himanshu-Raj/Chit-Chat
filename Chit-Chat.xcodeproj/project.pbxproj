@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		947730E9204BEDE9008FB9AC /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947730E8204BEDE9008FB9AC /* LoginVC.swift */; };
+		947730EC204BEE35008FB9AC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947730EB204BEE35008FB9AC /* Extensions.swift */; };
 		94EB15BE204AFF31004DB4F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EB15BD204AFF31004DB4F2 /* AppDelegate.swift */; };
 		94EB15C0204AFF31004DB4F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EB15BF204AFF31004DB4F2 /* ViewController.swift */; };
 		94EB15C3204AFF31004DB4F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94EB15C1204AFF31004DB4F2 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		947730E8204BEDE9008FB9AC /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		947730EB204BEE35008FB9AC /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		94EB15BA204AFF31004DB4F2 /* Chit-Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chit-Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94EB15BD204AFF31004DB4F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94EB15BF204AFF31004DB4F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		947730EA204BEE0A008FB9AC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				947730EB204BEE35008FB9AC /* Extensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		94EB15B1204AFF31004DB4F2 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +74,7 @@
 				94EB15D4204AFFD6004DB4F2 /* Model */,
 				94EB15D3204AFFCD004DB4F2 /* View */,
 				94EB15D2204AFFBB004DB4F2 /* Controllers */,
+				947730EA204BEE0A008FB9AC /* Extensions */,
 				94EB15C7204AFF31004DB4F2 /* Assets.xcassets */,
 				94EB15CC204AFF32004DB4F2 /* Info.plist */,
 				94EB15C4204AFF31004DB4F2 /* Chit_Chat.xcdatamodeld */,
@@ -73,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				94EB15BF204AFF31004DB4F2 /* ViewController.swift */,
+				947730E8204BEDE9008FB9AC /* LoginVC.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -164,8 +178,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				947730EC204BEE35008FB9AC /* Extensions.swift in Sources */,
 				94EB15C0204AFF31004DB4F2 /* ViewController.swift in Sources */,
 				94EB15C6204AFF31004DB4F2 /* Chit_Chat.xcdatamodeld in Sources */,
+				947730E9204BEDE9008FB9AC /* LoginVC.swift in Sources */,
 				94EB15BE204AFF31004DB4F2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,6 +346,7 @@
 				94EB15D1204AFF32004DB4F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

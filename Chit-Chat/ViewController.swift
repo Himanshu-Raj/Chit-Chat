@@ -8,11 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Log-Out", style: UIBarButtonItemStyle.plain , target: self, action: (#selector(ViewController.handleLogout)))
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +21,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    func handleLogout() {
+        let loginVC = LoginVC()
+        present(loginVC, animated: true, completion: nil)
+    }
 
 }
 
