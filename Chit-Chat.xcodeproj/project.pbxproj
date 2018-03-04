@@ -56,15 +56,39 @@
 		94EB15BC204AFF31004DB4F2 /* Chit-Chat */ = {
 			isa = PBXGroup;
 			children = (
-				94EB15BD204AFF31004DB4F2 /* AppDelegate.swift */,
-				94EB15BF204AFF31004DB4F2 /* ViewController.swift */,
 				94EB15C1204AFF31004DB4F2 /* Main.storyboard */,
-				94EB15C7204AFF31004DB4F2 /* Assets.xcassets */,
 				94EB15C9204AFF31004DB4F2 /* LaunchScreen.storyboard */,
+				94EB15BD204AFF31004DB4F2 /* AppDelegate.swift */,
+				94EB15D4204AFFD6004DB4F2 /* Model */,
+				94EB15D3204AFFCD004DB4F2 /* View */,
+				94EB15D2204AFFBB004DB4F2 /* Controllers */,
+				94EB15C7204AFF31004DB4F2 /* Assets.xcassets */,
 				94EB15CC204AFF32004DB4F2 /* Info.plist */,
 				94EB15C4204AFF31004DB4F2 /* Chit_Chat.xcdatamodeld */,
 			);
 			path = "Chit-Chat";
+			sourceTree = "<group>";
+		};
+		94EB15D2204AFFBB004DB4F2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				94EB15BF204AFF31004DB4F2 /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		94EB15D3204AFFCD004DB4F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		94EB15D4204AFFD6004DB4F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
